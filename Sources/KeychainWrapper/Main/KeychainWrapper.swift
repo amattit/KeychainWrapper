@@ -11,7 +11,7 @@ public class KeychainWrapper: NSObject {
     
     private let keychainOperations: KeychainOperations
     
-    init(keychainOperations: KeychainOperations) {
+    public init(keychainOperations: KeychainOperations) {
         self.keychainOperations = keychainOperations
     }
     
